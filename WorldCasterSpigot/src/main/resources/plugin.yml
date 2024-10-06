@@ -5,7 +5,7 @@ depend:
   - WorldChatter
 api-version: '1.13'
 authors: [ OmarOmar93 ]
-description: Standalone Broadcast Addon for WorldChatter!
+description: Standalone Broadcast Add-on for WorldChatter!
 commands:
   broadcast:
     description: Sends a message to all places.

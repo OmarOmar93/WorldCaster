@@ -12,7 +12,7 @@ import com.velocitypowered.api.proxy.ProxyServer;
         id = "worldcastervelocity",
         name = "WorldCaster",
         version = "1.0",
-        description = "Standalone Broadcast Addon for WorldChatter!",
+        description = "Standalone Broadcast Add-on for WorldChatter!",
         authors = {"OmarOmar93"},
         dependencies = {
                 @Dependency(id = "worldchatter")

@@ -28,8 +28,8 @@ public final class Command {
             if (sender.hasPermission("worldchatter.control")) {
                 if (args.length > 0) {
                     builder.delete(0, builder.length());
-                    for (int i = 0; i < args.length; i++) {
-                        builder.append(args[i]).append(" ");
+                    for (String arg : args) {
+                        builder.append(arg).append(" ");
                     }
                     final String message = ColorSystem.tCC(TextReplacer.INSTANCE.formatTexts(builder.toString(), sender.isPlayer() ? sender.getPlayer() : null));
                     sender.sendMessage(ColorSystem.GREEN + "Successfully sent the message!");

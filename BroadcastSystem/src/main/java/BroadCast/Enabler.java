@@ -10,7 +10,7 @@ public class Enabler {
         final WCA api = new WCA();
         api.createWCAddon("WorldCaster",
                 "OmarOmar93",
-                "Standalone Broadcast Addon for WorldChatter!"
+                "Standalone Broadcast Add-on for WorldChatter!"
                 , "WCaster", "1.0");
     }
 }

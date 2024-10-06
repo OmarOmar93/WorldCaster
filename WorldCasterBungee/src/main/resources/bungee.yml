@@ -4,4 +4,4 @@ main: me.omaromar93.worldCaster.WorldCaster
 author: OmarOmar93
 depends:
   - WorldChatter
-description: Standalone Broadcast Addon for WorldChatter!
+description: Standalone Broadcast Add-on for WorldChatter!
