@@ -1,0 +1,7 @@
+name: WorldCaster
+version: '1.0'
+main: me.omaromar93.worldCaster.WorldCaster
+author: OmarOmar93
+depends:
+  - WorldChatter
+description: Standalone Broadcast Addon for WorldChatter!

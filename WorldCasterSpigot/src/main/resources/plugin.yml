@@ -1,0 +1,14 @@
+name: WorldCaster
+version: '1.0'
+main: me.omaromar93.worldCaster.WorldCaster
+depend:
+  - WorldChatter
+api-version: '1.13'
+authors: [ OmarOmar93 ]
+description: Standalone Broadcast Addon for WorldChatter!
+commands:
+  broadcast:
+    description: Sends a message to all places.
+    aliases:
+      - b
+      - bc

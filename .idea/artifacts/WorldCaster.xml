@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WorldCaster">
+    <output-path>$PROJECT_DIR$/../../Servers/Minecraft/1.21/plugins</output-path>
+    <root id="archive" name="WorldCaster.jar">
+      <element id="module-output" name="BroadcastSystem" />
+      <element id="module-output" name="worldcasterspigot" />
+      <element id="module-output" name="worldcastervelocity" />
+      <element id="module-output" name="worldcasterbungee" />
+    </root>
+  </artifact>
+</component>
