@@ -11,7 +11,7 @@ import com.velocitypowered.api.proxy.ProxyServer;
 @Plugin(
         id = "worldcastervelocity",
         name = "WorldCaster",
-        version = "1.0",
+        version = "1.0.1",
         description = "Standalone Broadcast Add-on for WorldChatter!",
         authors = {"OmarOmar93"},
         dependencies = {

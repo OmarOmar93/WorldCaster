@@ -11,6 +11,6 @@ public class Enabler {
         api.createWCAddon("WorldCaster",
                 "OmarOmar93",
                 "Standalone Broadcast Add-on for WorldChatter!"
-                , "WCaster", "1.0");
+                , "WCaster", "1.0.1","https://raw.githubusercontent.com/OmarOmar93/WCVersion/refs/heads/main/worldCasterVersion",101);
     }
 }

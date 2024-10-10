@@ -3,6 +3,7 @@ package BroadCast;
 import Others.WorldCasterConfig;
 import WorldChatterCore.Connectors.InterfaceConnectors.MainPluginConnector;
 import WorldChatterCore.Connectors.Interfaces.CommandSender;
+import WorldChatterCore.Features.MiniMessageConnector;
 import WorldChatterCore.Features.TextReplacer;
 import WorldChatterCore.Systems.ColorSystem;
 import WorldChatterCore.Systems.ConfigSystem;
@@ -33,7 +34,9 @@ public final class Command {
                     }
                     final String message = ColorSystem.tCC(TextReplacer.INSTANCE.formatTexts(builder.toString(), sender.isPlayer() ? sender.getPlayer() : null));
                     sender.sendMessage(ColorSystem.GREEN + "Successfully sent the message!");
-                    MainPluginConnector.INSTANCE.getWorldChatter().broadcastMessage(prefix+message);
+                    MainPluginConnector.INSTANCE.getWorldChatter().broadcastMessage(
+                            MiniMessageConnector.INSTANCE != null ? prefix+message : ColorSystem.tCC(prefix+message)
+                    );
                     return;
                 }
                 sender.sendMessage(ColorSystem.BLUE + "- broadcast [message]" + ColorSystem.WHITE + " Broadcast a message to every single place");

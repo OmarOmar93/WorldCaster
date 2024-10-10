@@ -6,7 +6,7 @@
 
     <groupId>me.omaromar93</groupId>
     <artifactId>worldcastervelocity</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>worldcastervelocity</name>
@@ -97,7 +97,7 @@
         <dependency>
             <groupId>me.omaromar93</groupId>
             <artifactId>BroadcastSystem</artifactId>
-            <version>1.0</version>
+            <version>1.0.1</version>
         </dependency>
         <dependency>
             <groupId>me.omaromar93</groupId>
