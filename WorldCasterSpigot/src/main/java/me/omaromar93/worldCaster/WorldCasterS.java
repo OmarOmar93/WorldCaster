@@ -3,11 +3,11 @@ package me.omaromar93.worldCaster;
 import BroadCast.Enabler;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class WorldCaster extends JavaPlugin {
+public final class WorldCasterS extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getCommand("broadcast").setExecutor(new Command());
+        getCommand("broadcast").setExecutor(new CommandS());
         Enabler.onEnable();
     }
 

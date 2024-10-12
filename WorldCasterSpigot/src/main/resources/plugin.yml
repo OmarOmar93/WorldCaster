@@ -1,6 +1,6 @@
 name: WorldCaster
-version: '1.0.2'
-main: me.omaromar93.worldCaster.WorldCaster
+version: '1.0.3'
+main: me.omaromar93.worldCaster.WorldCasterS
 depend:
   - WorldChatter
 api-version: '1.13'

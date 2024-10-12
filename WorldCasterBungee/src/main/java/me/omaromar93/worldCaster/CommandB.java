@@ -3,9 +3,9 @@ package me.omaromar93.worldCaster;
 import me.omaromar93.wcbungee.Parent.BungeeCommandSender;
 import net.md_5.bungee.api.CommandSender;
 
-public final class Command extends net.md_5.bungee.api.plugin.Command {
+public final class CommandB extends net.md_5.bungee.api.plugin.Command {
 
-    public Command() {
+    public CommandB() {
         super("broadcast", "worlcchatter.control", "b","bc"); // Command name
     }
 

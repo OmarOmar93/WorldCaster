@@ -35,7 +35,7 @@ public final class Command {
                     final String message = ColorSystem.tCC(TextReplacer.INSTANCE.formatTexts(builder.toString(), sender.isPlayer() ? sender.getPlayer() : null));
                     sender.sendMessage(ColorSystem.GREEN + "Successfully sent the message!");
                     MainPluginConnector.INSTANCE.getWorldChatter().broadcastMessage(
-                            MiniMessageConnector.INSTANCE != null ? prefix+message : ColorSystem.tCC(prefix+message)
+                            MiniMessageConnector.INSTANCE != null ? MiniMessageConnector.INSTANCE.returnFormattedString(prefix+message) : ColorSystem.tCC(prefix+message)
                     );
                     return;
                 }
