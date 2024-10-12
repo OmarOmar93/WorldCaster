@@ -3,7 +3,6 @@ package BroadCast;
 import Others.WorldCasterConfig;
 import WorldChatterCore.Connectors.InterfaceConnectors.MainPluginConnector;
 import WorldChatterCore.Connectors.Interfaces.CommandSender;
-import WorldChatterCore.Features.MiniMessageConnector;
 import WorldChatterCore.Features.TextReplacer;
 import WorldChatterCore.Systems.ColorSystem;
 import WorldChatterCore.Systems.ConfigSystem;
