@@ -34,9 +34,7 @@ public final class Command {
                     }
                     final String message = ColorSystem.tCC(TextReplacer.INSTANCE.formatTexts(builder.toString(), sender.isPlayer() ? sender.getPlayer() : null));
                     sender.sendMessage(ColorSystem.GREEN + "Successfully sent the message!");
-                    MainPluginConnector.INSTANCE.getWorldChatter().broadcastMessage(
-                            MiniMessageConnector.INSTANCE != null ? MiniMessageConnector.INSTANCE.returnFormattedString(prefix+message) : ColorSystem.tCC(prefix+message)
-                    );
+                    MainPluginConnector.INSTANCE.getWorldChatter().broadcastMessage(ColorSystem.tCC(prefix+message));
                     return;
                 }
                 sender.sendMessage(ColorSystem.BLUE + "- broadcast [message]" + ColorSystem.WHITE + " Broadcast a message to every single place");
