@@ -6,7 +6,7 @@
 
     <groupId>me.omaromar93</groupId>
     <artifactId>WorldCaster</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <packaging>pom</packaging>
 
     <properties>

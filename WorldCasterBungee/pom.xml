@@ -6,7 +6,7 @@
 
     <groupId>me.omaromar93</groupId>
     <artifactId>worldcasterbungee</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <packaging>jar</packaging>
 
     <name>worldcasterbungee</name>
@@ -67,12 +67,12 @@
         <dependency>
             <groupId>me.omaromar93</groupId>
             <artifactId>BroadcastSystem</artifactId>
-            <version>1.0.3</version>
+            <version>1.0.4</version>
         </dependency>
         <dependency>
             <groupId>me.omaromar93</groupId>
             <artifactId>worldchatter</artifactId>
-            <version>3.0.7</version>
+            <version>latest</version>
             <scope>system</scope>
             <systemPath>D:/Projects/Servers/1.8_Server/plugins/WorldChatter.jar</systemPath>
         </dependency>

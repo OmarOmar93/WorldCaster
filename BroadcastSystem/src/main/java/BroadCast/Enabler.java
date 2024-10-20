@@ -16,13 +16,13 @@ public class Enabler {
             main = api.createWCAddon("WorldCaster",
                     "OmarOmar93",
                     "Standalone Broadcast Add-on for WorldChatter!"
-                    , "WCaster", "1.0.3", "https://raw.githubusercontent.com/OmarOmar93/WCVersion/refs/heads/main/worldCasterVersion", 103);
+                    , "WCaster", "1.0.4", "https://raw.githubusercontent.com/OmarOmar93/WCVersion/refs/heads/main/worldCasterVersion", 104);
         } catch (final NoSuchMethodError ignored) {
             MainPluginConnector.INSTANCE.getWorldChatter().sendConsoleMessage(ColorSystem.BLUE + "[WorldCaster] " + ColorSystem.YELLOW + "Older WorldChatter detected using legacy implementation!");
             main = api.createWCAddon("WorldCaster",
                     "OmarOmar93",
                     "Standalone Broadcast Add-on for WorldChatter!"
-                    , "WCaster", "1.0.3");
+                    , "WCaster", "1.0.4");
         }
         api.addListener(main, new events());
     }

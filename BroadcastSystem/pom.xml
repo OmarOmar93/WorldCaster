@@ -6,7 +6,7 @@
     <parent>
         <groupId>me.omaromar93</groupId>
         <artifactId>WorldCaster</artifactId>
-        <version>1.0.3</version>
+        <version>1.0.4</version>
     </parent>
 
     <artifactId>BroadcastSystem</artifactId>
@@ -28,7 +28,7 @@
         <dependency>
             <groupId>me.omaromar93</groupId>
             <artifactId>worldchatter</artifactId>
-            <version>3.0.7</version>
+            <version>latest</version>
             <scope>system</scope>
             <systemPath>D:/Projects/Servers/1.8_Server/plugins/WorldChatter.jar</systemPath>
         </dependency>

@@ -5,6 +5,7 @@ import WorldChatterCore.Others.ServerOptions;
 import WorldChatterCore.Players.Player;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
@@ -16,7 +17,7 @@ public final class AutoBroadcastSystem {
     private final Random rn = new Random();
     private boolean enabled, shuffle;
     private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
-    private final Map<String, placeData> placesC = new HashMap<>();
+    private final Map<String, placeData> placesC = new ConcurrentHashMap<>();
     private long duration = 0;
     public AutoBroadcastSystem() {
         INSTANCE = this;

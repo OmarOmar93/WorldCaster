@@ -1,5 +1,5 @@
 name: WorldCaster
-version: '1.0.3'
+version: '1.0.4'
 main: me.omaromar93.worldCaster.WorldCasterB
 author: OmarOmar93
 depends:

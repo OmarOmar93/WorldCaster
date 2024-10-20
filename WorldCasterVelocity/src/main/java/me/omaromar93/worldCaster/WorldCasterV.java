@@ -13,7 +13,7 @@ import com.velocitypowered.api.proxy.ProxyServer;
 @Plugin(
         id = "worldcastervelocity",
         name = "WorldCaster",
-        version = "1.0.3",
+        version = "1.0.4",
         description = "Standalone Broadcast Add-on for WorldChatter!",
         authors = {"OmarOmar93"},
         dependencies = {
@@ -34,10 +34,7 @@ public class WorldCasterV {
     public void onProxyInitialization(ProxyInitializeEvent event) {
         ThreadsSystem.runAsync(() -> {
             final CommandManager cm = server.getCommandManager();
-            cm.register(cm.metaBuilder("broadcast")
-                    .aliases("bc", "b")
-                    .plugin(server)
-                    .build(), new CommandV());
+            cm.register("b", new CommandV(), "bc", "b");
         });
     }
 }
