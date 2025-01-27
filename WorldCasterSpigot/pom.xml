@@ -6,7 +6,7 @@
 
     <groupId>me.omaromar93</groupId>
     <artifactId>worldcasterspigot</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <packaging>jar</packaging>
 
     <name>worldcasterspigot</name>
@@ -71,7 +71,7 @@
         <dependency>
             <groupId>me.omaromar93</groupId>
             <artifactId>BroadcastSystem</artifactId>
-            <version>1.0.4</version>
+            <version>1.0.5</version>
         </dependency>
         <dependency>
             <groupId>me.omaromar93</groupId>
