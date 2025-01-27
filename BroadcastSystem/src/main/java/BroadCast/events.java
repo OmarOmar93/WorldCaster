@@ -2,7 +2,6 @@ package BroadCast;
 
 import Others.WorldCasterConfig;
 import WorldChatterCore.API.WCListener;
-import WorldChatterCore.API.WCPlaceHolder;
 import WorldChatterCore.Connectors.Interfaces.CommandSender;
 import WorldChatterCore.Players.Player;
 import WorldChatterCore.Systems.ColorSystem;

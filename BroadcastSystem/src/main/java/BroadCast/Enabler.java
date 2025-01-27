@@ -1,9 +1,7 @@
 package BroadCast;
 
 import Others.WorldCasterConfig;
-import WorldChatterCore.API.Addon;
 import WorldChatterCore.API.WCA;
-import WorldChatterCore.API.WCPlaceHolder;
 import WorldChatterCore.Connectors.InterfaceConnectors.MainPluginConnector;
 import WorldChatterCore.Systems.ColorSystem;
 
